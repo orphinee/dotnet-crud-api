@@ -6,10 +6,10 @@ namespace dotnet_crud_api.Models.Entities
     {
         public int Id { get; set; }  
         [Required]  
-        public string Nama { get; set; }  = null!;
+        public string Nama { get; set; }
         public decimal Harga { get; set; }  
         public int Kategorild { get; set; }  
-        public Kategori Kategori { get; set; } = null!;
+        public Kategori Kategori { get; set; }
         public DateTime TanggalDibuat { get; set; } 
     }
 }
