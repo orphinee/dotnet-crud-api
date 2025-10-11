@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using dotnet_crud_api.Models.Entities;
 
 namespace dotnet_crud_api.Data

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using dotnet_crud_api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AplikasiDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
